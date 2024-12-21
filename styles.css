@@ -39,7 +39,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 
 footer {
@@ -50,3 +50,44 @@ footer {
     width: 100%;
     font-size: 14px;
 }
+
+
+
+
+#container {
+    display: flex;
+    height: calc(100vh - 220px); /* 100% - 220px Adjust for header/footer height */
+}
+
+#content {
+    flex-grow: 1;
+    border: none;
+}
+
+#menu {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin-bottom: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
