@@ -10,10 +10,30 @@ body {
     height: 100vh;
 }
 
+
+p {
+    padding-left: 10px; /* Default left padding for <p> elements */
+    text-align: left; /* Ensures text is left aligned */
+}
+
+
 header {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px 0;
 }
+
+h2 {
+    margin: 0;
+    text-align: left;
+    padding-left: 10px; /* Default left padding for <p> elements */
+}
+
+h3 {
+    margin: 0;
+    text-align: left;
+    padding-left: 10px; /* Default left padding for <p> elements */
+}
+
 
 nav ul {
     list-style-type: none;
@@ -50,8 +70,14 @@ footer {
     width: 100%;
     font-size: 14px;
 }
-
-
+footer.test {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
 
 
 #container {
@@ -91,3 +117,13 @@ footer {
 
 
 
+a {
+    text-decoration: underline;
+    color: #FFFFFF; /* Standard link color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+    background-color: yellow; /* Highlight color on hover */
+    color: #000000; /* Optional: Change text color on hover */
+}

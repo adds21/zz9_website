@@ -25,8 +25,10 @@
     <p>This is a test aspx page</p>
 
     
-    <footer>
-        <p>&copy; 2024 zz9.com</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 zz9.com&nbsp;&nbsp;&nbsp;
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
 </body>
 </html>
